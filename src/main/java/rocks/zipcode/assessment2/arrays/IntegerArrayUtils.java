@@ -1,5 +1,7 @@
 package rocks.zipcode.assessment2.arrays;
 
+import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
+
 /**
  * @author leon on 28/11/2018.
  */
@@ -10,6 +12,12 @@ public class IntegerArrayUtils {
      * @return - identical array with one additional element of `valueToBeAdded` at the end of the array
      */
     public static Integer[] add(Integer[] integerArray, Integer valueToBeAdded) {
+       // int [] newIntegerArray = new int[integerArray.length +1];
+
+       // for (int i = 0; i < integerArray.length ; i++) {
+         //   newIntegerArray[i] = integerArray[i];
+       // }
+       // newIntegerArray[newIntegerArray.length - 1] = valueToBeAdded;
         return null;
     }
 
@@ -29,7 +37,8 @@ public class IntegerArrayUtils {
      * @return element located at `indexToFetch`
      */
     public static Integer get(Integer[] integerArray, Integer indexToFetch) {
-        return null;
+
+        return indexToFetch;
     }
 
     /**
