@@ -28,6 +28,17 @@ public class IntegerArrayUtils {
      * @return `integerArray` with `valueToBeInserted` at index number `indexToInsertAt`
      */
     public static Integer[] replace(Integer[] integerArray, int indexToInsertAt, Integer valueToBeInserted) {
+       // int i;
+       // nt newarr[] = new int[valueToBeInserted + 1];
+
+      //  for (int i = 0; i < valueToBeInserted + 1; i++) {
+       //     if (i < indexToInsertAt - 1)
+        //        newarr[i] = integerArray[i];
+        //    else if (i == valueToBeInserted - 1)
+        //        newarr[i] = valueToBeInserted;
+        //    else
+        //        newarr[i] = integerArray[i - 1];
+      //  }
         return null;
     }
 
