@@ -6,7 +6,9 @@ public class PredicateUtilities {
      * @return true if `value` is a multiple of 2
      */
     public static Boolean isEven(Integer value) {
-        return null;
+        if(value % 2 == 0);
+
+        return true;
     }
 
     /**
@@ -14,7 +16,9 @@ public class PredicateUtilities {
      * @return true if `value` is not a multiple of 2
      */
     public static Boolean isOdd(Integer value) {
-        return null;
+        if(value % 2 == 0);
+
+        return true;
     }
 
     /**
@@ -22,7 +26,9 @@ public class PredicateUtilities {
      * @return true if `value` is a multiple of 3
      */
     public static Boolean isMultipleOf3(Integer value) {
+
         return null;
+
     }
 
     /**

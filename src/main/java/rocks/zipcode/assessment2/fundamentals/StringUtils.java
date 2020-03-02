@@ -1,5 +1,7 @@
 package rocks.zipcode.assessment2.fundamentals;
 
+import java.util.regex.Pattern;
+
 /**
  * @author leon on 28/11/2018.
  */
@@ -10,6 +12,7 @@ public class StringUtils {
      * @return `stringToBePadded` flushed right by left-padding
      */
     public static String padLeft(String stringToBePadded, int amountOfPadding) {
+
         return null;
     }
 
@@ -36,7 +39,8 @@ public class StringUtils {
      * @return - true if string only contains alpha characters
      */
     public static Boolean isAlphaString(String string) {
-        return null;
+
+        return Pattern.compile("[a-z]").matcher(string).find();
     }
 
     /**
@@ -44,7 +48,8 @@ public class StringUtils {
      * @return - true if string only contains numeric characters
      */
     public static Boolean isNumericString(String string) {
-        return null;
+
+        return Pattern.compile("[0-9]").matcher(string).find();
     }
 
     /**
@@ -52,6 +57,7 @@ public class StringUtils {
      * @return - true if string only contains special characters
      */
     public static Boolean isSpecialCharacterString(String string) {
-        return null;
+
+        return Pattern.compile("[!&*(]").matcher(string).find();
     }
 }
